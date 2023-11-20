@@ -13,11 +13,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 //script to handle synchronization issue for webpage using WebDriverWait
 public class Explicit_Wait {
 
-	public static WebDriver driver;
-
 	public static void main(String[] args) {
 
-		driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
 		driver.get("https://www.google.co.in/");
