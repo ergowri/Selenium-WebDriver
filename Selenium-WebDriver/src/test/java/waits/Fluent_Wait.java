@@ -15,12 +15,10 @@ import com.google.common.base.Function;
 
 //script to handle synchronization issue for webpage using FluetWait
 public class Fluent_Wait {
-	
-	public static WebDriver driver;
 
 	public static void main(String[] args) {
 
-		driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
 		driver.get("https://www.google.co.in/");
