@@ -20,7 +20,7 @@
 
 ## String getWindowHandles();
 
-## Set<String> getWindowHandles();
+## Set <String> getWindowHandles();
 
 ## TargetLocator switchTo();
 
