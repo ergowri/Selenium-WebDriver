@@ -14,6 +14,10 @@
 
 ## String getPageSource();
 
+## String getWindowHandles();
+
+## Set<String> getWindowHandles();
+
 ## void close();
 
 ## void quit();
