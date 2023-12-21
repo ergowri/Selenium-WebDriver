@@ -4,29 +4,45 @@
 
 
 
-## WebDriver Methods
+# WebDriver Interface Methods
 
-## Options manage();
+### Options manage();
 
-## void get(String url);
+### void get(String url);
 
-## String getTitle();
+### String getTitle();
 
-## String getCurrentUrl();
+### String getCurrentUrl();
 
-## String getPageSource();
+### String getPageSource();
 
-## Navigation navigate();
+### Navigation navigate();
 
-## String getWindowHandles();
+### WebDriver Navigation Interface Methods 
 
-## Set String getWindowHandles();
+### navigate().to(String url);
 
-## TargetLocator switchTo();
+### navigate().to(URL url);
 
-## void close();
+### navigate().back();
 
-## void quit();
+### navigate().forward();
+
+### navigate().refresh();
+
+### String getWindowHandles();
+
+### Set String getWindowHandles();
+
+### TargetLocator switchTo();
+
+## WebDriver TargetLocator Interface Methods
+
+
+
+### void close();
+
+### void quit();
 
 
 
