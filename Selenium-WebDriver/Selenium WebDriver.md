@@ -12,7 +12,7 @@
 
 ### manage().window().maximize();
 
-Maximize the browser window
+Maximize the current browser window
 
 ### void get(String url);
 
