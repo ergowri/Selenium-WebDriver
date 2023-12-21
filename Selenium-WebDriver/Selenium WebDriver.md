@@ -24,7 +24,7 @@ Get the url of the current page
 
 ### String getPageSource();
 
-Get the sourced of the current page
+Get the source code of the current page
 
 ### Navigation navigate();
 
@@ -32,13 +32,23 @@ Get the sourced of the current page
 
 ### navigate().to(String url);
 
+Navigate to a URL
+
 ### navigate().to(URL url);
+
+Navigate to a URL
 
 ### navigate().back();
 
+Move the browser back
+
 ### navigate().forward();
 
+Move the browser forward
+
 ### navigate().refresh();
+
+Refresh the current page
 
 ### String getWindowHandle();
 
@@ -48,13 +58,13 @@ Get the sourced of the current page
 
 ## WebDriver TargetLocator Interface Methods
 
-
-
 ### void close();
+
+Close single browser window
 
 ### void quit();
 
-
+Close all browser windows
 
 
 
