@@ -30,7 +30,7 @@
 
 ### navigate().refresh();
 
-### String getWindowHandles();
+### String getWindowHandle();
 
 ### Set String getWindowHandles();
 
