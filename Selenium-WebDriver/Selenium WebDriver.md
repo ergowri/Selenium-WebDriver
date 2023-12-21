@@ -14,9 +14,13 @@
 
 ## String getPageSource();
 
+## Navigation navigate();
+
 ## String getWindowHandles();
 
 ## Set<String> getWindowHandles();
+
+## TargetLocator switchTo();
 
 ## void close();
 
