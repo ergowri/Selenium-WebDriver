@@ -6,6 +6,8 @@
 
 ## WebDriver Methods
 
+## Options manage();
+
 ## void get(String url);
 
 ## String getTitle();
