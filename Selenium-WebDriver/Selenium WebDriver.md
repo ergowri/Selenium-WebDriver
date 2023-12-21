@@ -12,11 +12,19 @@
 
 ### void get(String url);
 
+Open a new web page
+
 ### String getTitle();
+
+Get the title of the current page
 
 ### String getCurrentUrl();
 
+Get the url of the current page
+
 ### String getPageSource();
+
+Get the sourced of the current page
 
 ### Navigation navigate();
 
