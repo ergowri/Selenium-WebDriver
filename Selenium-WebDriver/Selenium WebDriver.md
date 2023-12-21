@@ -10,6 +10,10 @@
 
 ### Options manage();
 
+### manage().window().maximize();
+
+Maximize the browser window
+
 ### void get(String url);
 
 Open a new web page
