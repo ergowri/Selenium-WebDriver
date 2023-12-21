@@ -36,11 +36,11 @@ Get the source code of the current page
 
 ### navigate().to(String url);
 
-Navigate to a URL
+Loads a new web page in the current browser window
 
 ### navigate().to(URL url);
 
-Navigate to a URL
+Loads a new web page in the current browser window
 
 ### navigate().back();
 
@@ -68,8 +68,7 @@ Close single browser window
 
 ### void quit();
 
-Close all browser windows
-
+Quits the driver and closes every associated window.
 
 
 
