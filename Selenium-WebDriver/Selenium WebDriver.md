@@ -56,7 +56,13 @@ Refresh the current page
 
 ### String getWindowHandle();
 
+- Returns a unique identifier for currently focused browser window or tab
+- We use when there are multiple windows open and we need to switch between them.
+
 ### Set String getWindowHandles();
+
+- Returns a set of unique identifier for all the currently focused browser window or tab.
+- We use when we want to iterate through all open windows or tabs.
 
 ### TargetLocator switchTo();
 
